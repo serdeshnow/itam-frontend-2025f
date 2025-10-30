@@ -4,9 +4,8 @@ import MOCK_TODOS from '../../__mocks__/get-todos.json'
 import { TodoCard } from '../todo-card/todo-card.tsx'
 import type { Todo } from '@/shared/types'
 
-type Props = {}
+function TodoList() {
 
-function TodoList({}: Props) {
   // Тут мы запрашиваем данные с бэкенда
 
   // CR_D
